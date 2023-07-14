@@ -7,7 +7,7 @@ import useUpdate from '../hooks/useUpdate';
 import { noop, getOrCreateModel, getModel } from '../utils';
 import { type DiffEditorProps, type MonacoDiffEditor } from './types';
 import { type Monaco } from '..';
-
+console.log('DiffEditor - 1');
 function DiffEditor({
   original,
   modified,
